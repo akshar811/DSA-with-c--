@@ -8,7 +8,7 @@ int main()
 {
     int choice;
     double totalPrice = 0.0;
-
+    
     cout << "Welcome to the Food Menu!" << endl;
     cout << "1. Pizza" << endl;
     cout << "2. Burger" << endl;
