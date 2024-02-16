@@ -9,6 +9,7 @@ int main()
     cin >> n;
 
     i = n;
+    
     while (i >= 1)
     {
         fact = fact * i;
