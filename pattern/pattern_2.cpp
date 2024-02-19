@@ -15,8 +15,8 @@ int main()
     for (i = 1; i <= 5; i++)
 
     {
-        num = num * 10 + i ;
-        cout << num  << endl  ;
+        num = num * 10 + i;
+        cout << num << endl;
     }
 
     return 0;

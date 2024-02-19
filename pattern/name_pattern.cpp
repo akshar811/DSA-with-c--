@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
-
 int main()
 {
     int i, j;
@@ -15,29 +13,28 @@ int main()
             if (j == 1 || j == 5 || i == 4 || i == 1)
             {
                 cout << "* ";
-            //    system("Color 0B"); 
+                //    system("Color 0B");
             }
             else
             {
                 cout << "  ";
             }
         }
-      cout << "  ";
-      
+        cout << "  ";
+
         // print K
         for (j = 1; j <= 5; j++)
         {
             if (j == 1 || j + 2 == i || (i + j == 6 && i <= 4))
             {
                 cout << "* ";
-                
             }
             else
             {
                 cout << "  ";
             }
         }
-         cout << "  ";
+        cout << "  ";
 
         // print S
         for (j = 1; j <= 5; j++)
@@ -51,7 +48,7 @@ int main()
                 cout << "  ";
             }
         }
-         cout << "  ";
+        cout << "  ";
 
         // print H
         for (j = 1; j <= 5; j++)
@@ -65,9 +62,9 @@ int main()
                 cout << "  ";
             }
         }
-         cout << "  ";
+        cout << "  ";
 
-         // print A
+        // print A
         for (j = 1; j <= 5; j++)
         {
             if (j == 1 || j == 5 || i == 4 || i == 1)
@@ -79,12 +76,12 @@ int main()
                 cout << "  ";
             }
         }
-         cout << "  ";
+        cout << "  ";
 
-         // print R
+        // print R
         for (j = 1; j <= 5; j++)
         {
-            if (j == 1 || i==1 || j + 2 == i || (j == 5 && i <= 3) || (i == 4 && j != 5))
+            if (j == 1 || i == 1 || j + 2 == i || (j == 5 && i <= 3) || (i == 4 && j != 5))
             {
                 cout << "* ";
             }
@@ -94,7 +91,6 @@ int main()
             }
         }
         cout << endl;
-        
     }
     return 0;
 }

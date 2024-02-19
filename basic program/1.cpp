@@ -3,18 +3,17 @@ using namespace std;
 
 int main()
 {
-    //static program
+    // static program
 
-    int a = 5 ;
+    int a = 5;
     int b = 10;
     float c = 3.26;
     bool d = false;
 
-    //endl means break the line
-    
-    cout << "sum of a + b = " << a+c << endl;
-    cout << d ;
+    // endl means break the line
+
+    cout << "sum of a + b = " << a + c << endl;
+    cout << d;
 
     return 0;
-    
 }
