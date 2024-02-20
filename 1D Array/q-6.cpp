@@ -9,7 +9,7 @@ int main()
     int i, j, n;
     bool val = false;
 
-    cout << "Enter a number: "; 
+    cout << "Enter a number: ";
     cin >> n;
 
     for (i = 0; i < a[i]; i++)
