@@ -12,7 +12,7 @@ int main()
 
     for (i = 0; i < size; i++)
     {
-        cout << "Enter element " << i + 1 << ": ";
+        cout << "Enter element [" << i << "] : ";
         cin >> a[i];
     }
 
