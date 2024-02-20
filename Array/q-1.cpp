@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    int size, index, value , i;
+    int size, index, value, i , j;
 
     cout << "Enter the size of the array: ";
     cin >> size;
@@ -13,7 +13,7 @@ int main()
     int a[size];
 
     cout << "Enter the elements of the array: ";
-    for ( i = 0; i < size; i++)
+    for (i = 0; i < size; i++)
     {
         cout << "Enter element [" << i << "] : ";
         cin >> a[i];
@@ -25,7 +25,7 @@ int main()
     cout << "Enter the value : ";
     cin >> value;
 
-    for ( i = size; i > index; i--)
+    for (i = size; i > index; i--)
     {
         a[i] = a[i - 1];
     }
@@ -33,7 +33,7 @@ int main()
     size++;
 
     cout << "Array after insertion: ";
-    for ( i = 0; i < size; i++)
+    for (i = 0; i < size; i++)
     {
         cout << a[i] << " ";
     }
