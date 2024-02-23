@@ -29,6 +29,7 @@ int main()
     {
         a[i] = a[i - 1];
     }
+
     a[index] = value;
     size++;
 
@@ -41,3 +42,4 @@ int main()
     return 0;
     
 }
+
