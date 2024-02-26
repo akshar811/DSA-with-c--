@@ -11,7 +11,7 @@ int main()
     cin >> r;
 
     cout << "Enter the column : ";
-    cin >> c;
+    cin >> c;       
 
     int a[r][c], choice;
 
@@ -84,4 +84,5 @@ int main()
     } while (choice != 0);
 
     return 0;
+
 }
